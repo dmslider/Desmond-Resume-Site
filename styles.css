@@ -1,0 +1,181 @@
+
+body {
+    background-color: #090b4d;
+
+}
+
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 30px;
+    border-bottom: 3px solid white;
+    width: 2%;
+    padding-top: 30px;
+}
+
+/*h3 { 
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr; 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}*/
+
+ p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    
+
+}
+
+.my-name {
+    display: inline-block;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: none;
+    color: white;
+    border-bottom: 10px solid #4CB8C4;
+}
+
+.header-bio {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 60%;
+    margin-top: -30px;
+
+}
+
+
+.social-media-links {
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 50px;
+    font-size: 2.5em;
+    color: white;
+    margin-top: 5px;
+}
+
+.language-skills {
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 50px;
+    font-size: 2.5em;
+    color: white;
+    margin-top: 5px;
+}
+
+.headshot--image {
+    width: 250px;
+
+}
+
+img {
+    margin: -400px 1px 0px 750px;
+}
+
+
+.section-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -15px;
+    margin-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    word-spacing: 1px;
+}
+
+.education {
+    display: block;
+    grid-template-columns: 1fr 2fr;
+    background-color: #4CB8C4;
+    height: 275px;
+}
+
+
+.work-experience {
+    display: block;
+    grid-template-columns: 1fr 2fr;
+    background-color: #5433ff;
+    height: 275px;
+}
+
+.skills{
+    display: block;
+    grid-template-columns: 1fr 2fr;
+    background-color: #292E49;
+    height: 275px;
+    margin-bottom: 100px;
+
+}
+
+.education-header{
+    display: grid;
+    grid-template-columns: 2.5fr 2fr ;
+    margin-top: -120px;
+}
+
+.skills-header{
+    display: grid;
+    grid-template-columns: 2.5fr 2fr;
+    margin-top: -120px;
+}
+
+ul{
+    margin-top: 0 auto;
+}
+
+
+li {
+    list-style: circle;
+    color: white;
+    font-family:  Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+    line-height: 18px;
+    word-spacing: 2px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    color: #20bdff;
+    
+}
+
+a :hover{
+    color:#26bba7;
+}
+
+a :visited{
+    color: skyblue;
+}
+
+hr {
+    color: white;
+}
+
+footer{
+    margin-top: -85px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 100px;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
